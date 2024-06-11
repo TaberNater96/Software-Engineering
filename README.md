@@ -10,8 +10,8 @@
   - [Race of the Robots](https://github.com/TaberNater96/Software-Engineering/tree/main/Race%20of%20the%20Robots)
   - [OOP - School Catalogue](https://github.com/TaberNater96/Software-Engineering/tree/main/Advanced%20Operations/OOP%20-%20School%20Catalogue)
   - [Unit Testing - Surfshop](https://github.com/TaberNater96/Software-Engineering/tree/main/Advanced%20Operations/Unit%20Testing%20-%20Surfshop)
-  - [Weather API](https://github.com/TaberNater96/Software-Engineering/tree/main/SWE%20Challenges/Weather%20API)
   - [Iterator Objects - Student Rosters](https://github.com/TaberNater96/Software-Engineering/tree/main/Advanced%20Operations/Iterator%20Objects%20-%20Student%20Rosters)
+  - [Weather API](https://github.com/TaberNater96/Software-Engineering/tree/main/SWE%20Challenges/Weather%20API)
 </details>
 
 &nbsp;
@@ -29,6 +29,10 @@ The projects featured within this repository highlight best practices in both ar
 ## Table of Contents
 - [Race of the Robots](#race-of-the-robots)
 - [OOP - School Catalogue](#oop-school-catalogue)
+- [Unit Testing - Surfshop](#unit-testing-surfshop)
+- [Iterator Objects - Student Rosters](#iterator-objects-student-rosters)
+
+&nbsp;
 
 <div id="race-of-the-robots" align="center">
   <h2>Race of the Robots</h2>
@@ -49,3 +53,34 @@ This project involves creating a digital school catalog for the New York City De
 **Results:**
 
 ![OOP Results](https://github.com/TaberNater96/Software-Engineering/assets/127979108/ae042d62-b94e-4112-a64f-b6a9faee2ea4)
+
+<div id="unit-testing-surfshop" align="center">
+  <h2>Unit Testing - Surfshop</h2>
+</div>
+
+This Python project involves a test suite designed to assess the functionality of a shopping cart system for a surf shop, part of the Codecademy course work. Utilizing the **unittest** framework, it tests key features, including the addition of single and multiple surfboards to the cart, the application of local discounts, and the validation of checkout dates. The tests employ subtests to efficiently check multiple conditions and use exception handling to confirm proper error responses for invalid actions, such as adding too many surfboards or setting an inappropriate checkout date. This ensures that the surf shop's cart system operates correctly and handles various user actions and inputs effectively.
+
+<div id="iterator-objects-student-rosters" align="center">
+  <h2>Iterator Objects - Student Rosters</h2>
+</div>
+
+This project involves creating a digital school catalog and student roster system with a focus on iterator objects. The catalog includes classes for `School`, `PrimarySchool`, and `HighSchool`, inheriting from the `School` class, which has properties for `name`, `level`, and `numberOfStudents`, with appropriate getters, setters, and a `__repr__()` method. The `PrimarySchool` class adds a `pickupPolicy` property, and the `HighSchool` class includes a `sportsTeams` property, both with getters and overridden `__repr__()` methods. A key component is the `Roster` class, which manages a list of students and allows adding, removing, and iterating through students. By implementing the `__iter__()` and `__next__()` methods, the `Roster` class supports iteration, enabling seamless traversal through the list of students. The project is tested using the `unittest` framework to ensure that all classes and methods, especially the iterator functionality in the `Roster` class, work as expected. This demonstrates how iterator objects can enhance the flexibility and usability of a system designed for managing school and student information.
+
+#### Class Structure and Properties Overview
+
+| **Class**          | **Properties**                                               | **Methods**                                                                                                                                                    |
+|--------------------|--------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **School**         | `name` (string), `level` (string), `numberOfStudents` (int)  | `get_name()`, `get_level()`, `get_number_of_students()`, `set_number_of_students(number)`, `__repr__()`                                                        |
+| **PrimarySchool**  | Inherits `School` properties, `pickupPolicy` (string)        | `get_pickup_policy()`, `__repr__()`                                                                                                                            |
+| **HighSchool**     | Inherits `School` properties, `sportsTeams` (list of strings)| `get_sports_teams()`, `__repr__()`                                                                                                                             |
+| **Roster**         | `students` (list of strings)                                 | `add_student(student_name)`, `remove_student(student_name)`, `get_students()`, `__repr__()`, `__iter__()`, `__next__()`                                                                               |
+
+
+
+
+
+
+
+
+
+
