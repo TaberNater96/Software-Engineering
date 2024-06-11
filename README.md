@@ -31,6 +31,7 @@ The projects featured within this repository highlight best practices in both ar
 - [OOP - School Catalogue](#oop-school-catalogue)
 - [Unit Testing - Surfshop](#unit-testing-surfshop)
 - [Iterator Objects - Student Rosters](#iterator-objects-student-rosters)
+- [Weather API](#weather-api)
 
 &nbsp;
 
@@ -75,12 +76,15 @@ This project involves creating a digital school catalog and student roster syste
 | **HighSchool**     | Inherits `School` properties, `sportsTeams` (list of strings)| `get_sports_teams()`, `__repr__()`                                                                                                                             |
 | **Roster**         | `students` (list of strings)                                 | `add_student(student_name)`, `remove_student(student_name)`, `get_students()`, `__repr__()`, `__iter__()`, `__next__()`                                                                               |
 
+<div id="weather-api" align="center">
+  <h2>Weather API</h2>
+</div>
 
+This project focuses on developing a weather forecasting tool that retrieves and displays weather information based on a user's input of a zip code. The tool utilizes the OpenWeatherMap API to fetch real-time weather data, ensuring that users receive accurate and up-to-date information. The primary purpose of this project is to demonstrate the integration of external APIs into a Python application, handling exceptions, and validating user input to maintain robustness and reliability. The importance of this project in software architecture lies in its illustration of several key concepts: API interaction for real-time data retrieval, error handling to manage potential issues during data fetching, and input validation to ensure data integrity. By guiding the user through a simple process of inputting a zip code and receiving weather details, this project shows how external data sources can be leveraged to enhance application functionality, emphasizing the role of well-structured code and user-friendly interfaces in creating effective and responsive software solutions.
 
+**Output:**
 
-
-
-
+![Weather API Output](https://github.com/TaberNater96/Software-Engineering/assets/127979108/ea822fb8-96a5-417a-aaa2-06e73bd9fe8e)
 
 
 
