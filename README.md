@@ -7,6 +7,7 @@
 <details>
   <summary><b>Click Here To Navigate To Each Repository<b></summary>
 
+  - [Race of the Robots](https://github.com/TaberNater96/Software-Engineering/tree/main/Race%20of%20the%20Robots)
   - [OOP - School Catalogue](https://github.com/TaberNater96/Software-Engineering/tree/main/Advanced%20Operations/OOP%20-%20School%20Catalogue)
   - [Unit Testing - Surfshop](https://github.com/TaberNater96/Software-Engineering/tree/main/Advanced%20Operations/Unit%20Testing%20-%20Surfshop)
   - [Weather API](https://github.com/TaberNater96/Software-Engineering/tree/main/SWE%20Challenges/Weather%20API)
