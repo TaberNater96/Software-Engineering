@@ -28,6 +28,7 @@ The projects featured within this repository highlight best practices in both ar
 
 ## Table of Contents
 - [Race of the Robots](#race-of-the-robots)
+- [OOP - School Catalogue](#oop-school-catalogue)
 
 <div id="race-of-the-robots" align="center">
   <h2>Race of the Robots</h2>
@@ -38,3 +39,13 @@ https://github.com/TaberNater96/Software-Engineering/assets/127979108/56ba790a-3
 ![Robot Race Results](https://github.com/TaberNater96/Software-Engineering/assets/127979108/606d7fff-2380-430f-b3aa-8bc86e826496)
 
 This project, assigned by Codecademy, was designed to command, track, and score bots in a relatively simple simulation in which the main goal was to have the bots traverse different mazes to reach a target. However this project takes that concept a step further by turning it into a race and has 6 different bots race against each other and record their performance. The entire concept behind the logic of this project is to demonstrate how dynamic python containers can be, they are much more than objects that can store data. Parameters are defined behind the scenes such as a "#" corresponding to a wall that the bot cannot pass within the given boundaries of the martix. This fully automated algorithm shows how relatively simple code can lead to a program that can learn from past mistakes and ultimately achieve a given goal. This project serves as a foundation for more complex algorithms that can traverse a restricted path of a martix until a path is found and the goal is achieved, making it an invaluable tool in the area of data mining.
+
+<div id="oop-school-catalogue" align="center">
+  <h2>OOP - School Catalogue</h2>
+</div>
+
+This project involves creating a digital school catalog for the New York City Department of Education to hold quick reference material for each school in the city. It uses Python classes and inheritance to create a parent class `School` and two child classes `PrimarySchool` and `HighSchool`. The `School` class includes properties for `name`, `level`, and `numberOfStudents`, with appropriate getters, a setter for `numberOfStudents`, and a `__repr__()` method for displaying school information. The `PrimarySchool` class adds a `pickupPolicy` property and a corresponding getter, while the `HighSchool` class adds a `sportsTeams` property and its getter, both overriding the `__repr__()` method to include their additional properties. This project showcases how inheritance allows specialized classes to share common properties and methods, making the code more modular and maintainable, serving as a foundation for building complex systems requiring organized data handling.
+
+**Results:**
+
+![OOP Results](https://github.com/TaberNater96/Software-Engineering/assets/127979108/ae042d62-b94e-4112-a64f-b6a9faee2ea4)
