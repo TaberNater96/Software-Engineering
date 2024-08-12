@@ -8,6 +8,7 @@
   <summary><b>Click Here To Navigate To Each Repository<b></summary>
 
   - [Race of the Robots](https://github.com/TaberNater96/Software-Engineering/tree/main/Race%20of%20the%20Robots)
+  - [Bash Build Script](https://github.com/TaberNater96/Software-Engineering/tree/main/SWE%20Challenges/Bash%20Build%20Script)
   - [OOP - School Catalogue](https://github.com/TaberNater96/Software-Engineering/tree/main/Advanced%20Operations/OOP%20-%20School%20Catalogue)
   - [Unit Testing - Surfshop](https://github.com/TaberNater96/Software-Engineering/tree/main/Advanced%20Operations/Unit%20Testing%20-%20Surfshop)
   - [Iterator Objects - Student Rosters](https://github.com/TaberNater96/Software-Engineering/tree/main/Advanced%20Operations/Iterator%20Objects%20-%20Student%20Rosters)
@@ -28,6 +29,7 @@ The projects featured within this repository highlight best practices in both ar
 
 ## Table of Contents
 - [Race of the Robots](#race-of-the-robots)
+- [Bash Build Script](#bash-build-script)
 - [OOP - School Catalogue](#oop-school-catalogue)
 - [Unit Testing - Surfshop](#unit-testing-surfshop)
 - [Iterator Objects - Student Rosters](#iterator-objects-student-rosters)
@@ -44,6 +46,20 @@ https://github.com/TaberNater96/Software-Engineering/assets/127979108/56ba790a-3
 ![Robot Race Results](https://github.com/TaberNater96/Software-Engineering/assets/127979108/606d7fff-2380-430f-b3aa-8bc86e826496)
 
 This project, assigned by Codecademy, was designed to command, track, and score bots in a relatively simple simulation in which the main goal was to have the bots traverse different mazes to reach a target. However this project takes that concept a step further by turning it into a race and has 6 different bots race against each other and record their performance. The entire concept behind the logic of this project is to demonstrate how dynamic python containers can be, they are much more than objects that can store data. Parameters are defined behind the scenes such as a "#" corresponding to a wall that the bot cannot pass within the given boundaries of the martix. This fully automated algorithm shows how relatively simple code can lead to a program that can learn from past mistakes and ultimately achieve a given goal. This project serves as a foundation for more complex algorithms that can traverse a restricted path of a martix until a path is found and the goal is achieved, making it an invaluable tool in the area of data mining.
+
+<div id="bash-build-script" align="center">
+  <h2>Bash Build Script</h2>
+</div>
+
+| Step | Description |
+|------|-------------|
+| 1    | **File Operations**: Automatically copy necessary files from the source directory to the build directory. |
+| 2    | **Version Control Integration**: Extract the current version number from the changelog. |
+| 3    | **User Confirmation Workflow**: Implement a user confirmation step to enhance control over the build process. |
+| 4    | **Exclude Proprietary Files**: Use advanced logic to identify and exclude proprietary files, protecting sensitive intellectual property. |
+| 5    | **Automated Solution**: Streamline the build workflow, reducing manual errors and improving overall efficiency. |
+
+This project aims to create an advanced bash script to automate the build process. The script handles file operations by automatically copying necessary files from the source directory to the build directory, while seamlessly integrating version control. It pulls the current version number from the changelog and includes a user confirmation step, giving you more control over the build process. This script also contains logic to detect and exclude proprietary files, protecting sensitive intellectual property. This automated solution simplifies the build workflow, reduces manual errors, and boosts overall efficiency in software development projects.
 
 <div id="oop-school-catalogue" align="center">
   <h2>OOP - School Catalogue</h2>
