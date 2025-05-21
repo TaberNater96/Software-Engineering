@@ -7,6 +7,7 @@
 <details>
   <summary><b>Click Here To Navigate To Each Repository<b></summary>
 
+  - [Flask HTTP Server](https://github.com/TaberNater96/Flask-HTTP-Server)
   - [Race of the Robots](https://github.com/TaberNater96/Software-Engineering/tree/main/Race%20of%20the%20Robots)
   - [Bash Build Script](https://github.com/TaberNater96/Software-Engineering/tree/main/SWE%20Challenges/Bash%20Build%20Script)
   - [OOP - School Catalogue](https://github.com/TaberNater96/Software-Engineering/tree/main/Advanced%20Operations/OOP%20-%20School%20Catalogue)
@@ -28,6 +29,7 @@ The projects featured within this repository highlight best practices in both ar
 </div>
 
 ## Table of Contents
+- [Flask HTTP Server](#flask-http-server)
 - [Race of the Robots](#race-of-the-robots)
 - [Bash Build Script](#bash-build-script)
 - [OOP - School Catalogue](#oop-school-catalogue)
@@ -36,6 +38,18 @@ The projects featured within this repository highlight best practices in both ar
 - [Weather API](#weather-api)
 
 &nbsp;
+
+<div id="flask-http-server" align="center">
+  <h2>Flask HTTP Server</h2>
+</div>
+
+<a href="https://github.com/TaberNater96/Flask-HTTP-Server" target="_blank">Source Code</a>
+
+![Flask HTTP Server](https://github.com/TaberNater96/Flask-HTTP-Server/blob/main/images/Flask%20HTTP%20Server%20Diagram.png?raw=true)
+
+The goal of this project was to build an HTTP server and walk through the entire pipeline of front-end to back-end, and then back to front-end again. This Flask HTTP server is designed to power a web application by managing data interactions and is highly focussed on the back-end engineering pipeline with a simple user interface. It starts when a user interacts with the application's interface in their web browser. The front-end, built with HTML, CSS, and JavaScript, captures these user actions, whether it's adding new information, viewing existing details, making changes, or removing something—and translates them into standardized web requests. For the purposes of this specific project, the main application is a TODO app.
+
+These requests are then routed by the server's API layer to the correct processing logic. The server-side core then takes over, first verifying the incoming data is valid and matches the database schema. It then uses an Object-Relational Mapper (ORM) to seamlessly communicate with a PostgreSQL database, where all of the application's data is securely stored and managed. Essential background processes handle the initial setup of the application, manage logging for monitoring, and allow the server to adapt its behavior based on whether it's running in a development, testing, or live production environment, all neatly contained within a Python virtual environment.
 
 <div id="race-of-the-robots" align="center">
   <h2>Race of the Robots</h2>
