@@ -51,6 +51,14 @@ The goal of this project was to build an HTTP server and walk through the entire
 
 These requests are then routed by the server's API layer to the correct processing logic. The server-side core then takes over, first verifying the incoming data is valid and matches the database schema. It then uses an Object-Relational Mapper (ORM) to seamlessly communicate with a PostgreSQL database, where all of the application's data is securely stored and managed. Essential background processes handle the initial setup of the application, manage logging for monitoring, and allow the server to adapt its behavior based on whether it's running in a development, testing, or live production environment, all neatly contained within a Python virtual environment.
 
+## Live Server
+
+```sh
+flask run
+```
+
+![Live Server](https://github.com/TaberNater96/Flask-HTTP-Server/blob/main/images/Live%20Server.png?raw=true)
+
 <div id="race-of-the-robots" align="center">
   <h2>Race of the Robots</h2>
 </div>
