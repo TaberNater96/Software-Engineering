@@ -9,6 +9,7 @@
 
   - [Flask HTTP Server](https://github.com/TaberNater96/Flask-HTTP-Server)
   - [Race of the Robots](https://github.com/TaberNater96/Software-Engineering/tree/main/Race%20of%20the%20Robots)
+  - [RPSx99](https://github.com/TaberNater96/RPSx99)
   - [Bash Build Script](https://github.com/TaberNater96/Software-Engineering/tree/main/SWE%20Challenges/Bash%20Build%20Script)
   - [OOP - School Catalogue](https://github.com/TaberNater96/Software-Engineering/tree/main/Advanced%20Operations/OOP%20-%20School%20Catalogue)
   - [Unit Testing - Surfshop](https://github.com/TaberNater96/Software-Engineering/tree/main/Advanced%20Operations/Unit%20Testing%20-%20Surfshop)
@@ -31,6 +32,7 @@ The projects featured within this repository highlight best practices in both ar
 ## Table of Contents
 - [Flask HTTP Server](#flask-http-server)
 - [Race of the Robots](#race-of-the-robots)
+- [RPSx99](#rpsx99)
 - [Bash Build Script](#bash-build-script)
 - [OOP - School Catalogue](#oop-school-catalogue)
 - [Unit Testing - Surfshop](#unit-testing-surfshop)
@@ -68,6 +70,20 @@ https://github.com/TaberNater96/Software-Engineering/assets/127979108/56ba790a-3
 ![Robot Race Results](https://github.com/TaberNater96/Software-Engineering/assets/127979108/606d7fff-2380-430f-b3aa-8bc86e826496)
 
 This project was designed to command, track, and score bots in a relatively simple simulation in which the main goal was to have the bots traverse different mazes to reach a target. However this project takes that concept a step further by turning it into a race and has 6 different bots race against each other and record their performance. The entire concept behind the logic of this project is to demonstrate how dynamic python containers can be, they are much more than objects that can store data. Parameters are defined behind the scenes such as a "#" corresponding to a wall that the bot cannot pass within the given boundaries of the martix. This fully automated algorithm shows how relatively simple code can lead to a program that can learn from past mistakes and ultimately achieve a given goal. This project serves as a foundation for more complex algorithms that can traverse a restricted path of a martix until a path is found and the goal is achieved, making it an invaluable tool in the area of data mining.
+
+<div id="rpsx99" align="center">
+  <h2>RPSx99</h2>
+</div>
+
+<img width="1239" height="603" alt="RPS2" src="https://github.com/user-attachments/assets/a2dce7a3-bd9d-4a74-9aa4-66b814470c4e" />
+
+RPSx99 is a strategic twist on the classic Rock, Paper, Scissors game that adds a layer of resource management to the traditional luck-based format. Instead of a single throw, players plan a sequence of three moves, assigning a "strength" value to each. The catch is that the total strength across all three moves cannot exceed 99 points. This forces players to decide whether to go all-in on a specific round or spread their strength evenly. If both players choose the same move type (e.g., both choose Rock), the one with the higher strength value wins that round, adding depth to the gameplay.
+
+<img width="765" height="442" alt="RPS3" src="https://github.com/user-attachments/assets/ff35cc00-4fb6-4280-b219-3bd9468b6d4e" />
+
+Technically, the project is built using a clean separation of concerns between the game mechanics and the user interface. The core rules, state management, and win conditions are encapsulated in game-logic.js, which uses pure JavaScript to validate moves and calculate results based on the custom strength mechanics. The visual layer is handled by view-logic.js, which leverages jQuery for efficient DOM manipulation, event handling, and managing the game's flow from player selection to the final results screen. The application is styled with custom CSS and includes sound effects to enhance the user experience, resulting in a responsive and interactive browser-based game. A full node test suite was created to make sure all edge cases are addressed and core logic is maintained throughout the application.
+
+<img width="1028" height="562" alt="RPS4" src="https://github.com/user-attachments/assets/15872c6c-7baa-46b9-9ca1-1500a11d9ea3" />
 
 <div id="bash-build-script" align="center">
   <h2>Bash Build Script</h2>
