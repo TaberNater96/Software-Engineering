@@ -8,6 +8,7 @@
   <summary><b>Click Here To Navigate To Each Repository<b></summary>
 
   - [Flask HTTP Server](https://github.com/TaberNater96/Flask-HTTP-Server)
+  - [Express Yourself](https://github.com/TaberNater96/ExpressYourself)
   - [Race of the Robots](https://github.com/TaberNater96/Software-Engineering/tree/main/Race%20of%20the%20Robots)
   - [RPSx99](https://github.com/TaberNater96/RPSx99)
   - [Bash Build Script](https://github.com/TaberNater96/Software-Engineering/tree/main/SWE%20Challenges/Bash%20Build%20Script)
@@ -31,6 +32,7 @@ The projects featured within this repository highlight best practices in both ar
 
 ## Table of Contents
 - [Flask HTTP Server](#flask-http-server)
+- [Express Yourself](#express-yourself)
 - [Race of the Robots](#race-of-the-robots)
 - [RPSx99](#rpsx99)
 - [Bash Build Script](#bash-build-script)
@@ -60,6 +62,22 @@ flask run
 ```
 
 ![Live Server](https://github.com/TaberNater96/Flask-HTTP-Server/blob/main/images/Live%20Server.png?raw=true)
+
+<div id="express-yourself" align="center">
+  <h2>Express Yourself</h2>
+</div>
+
+<a href="https://github.com/TaberNater96/ExpressYourself" target="_blank">Source Code</a>
+
+<div align="center">
+<img width="500" height="800" alt="EY" src="https://github.com/TaberNater96/ExpressYourself/blob/main/images/expressions.png?raw=true" />
+</div>
+
+As you may have guessed, this project is built around an express.js server that I created to practice building a CRUD app using different backend frameworks. Since express.js is one of the most popular backend frameworks on the planet that allows developers to create a full stack application in JavaScript, I thought I would give it a shot. Technically the inspiration for this comes from a Codecademy assignment in their Backend Engineering path, but I added some of my extra flair to it and really focussed on routers and separation of concerns to get a solid feel for express.js. This framework is designed to be neatly split up into components where one file focuses on one topic/feature with a main and app file to glue it all together, so frontend devs that purely code in React.js will have an easy time understanding the flow of the backend. After building this project, I can definitely see why "Express" is an appropriate name for this framework, as it is not only fast performance wise, but is very fast to develop in and only takes an hour or two to get a full backend up and running with all routes set in place. This project also took advantage of express routers, which is a way to easily define and reuse a route to be used in various locations for backend services. The frontend is designed so that the user can visually see the API pipeline and interact with the CRUD operations to see how data flows from the frontend to the backend and vise-versa.
+
+<div align="center">
+<img width="500" height="800" alt="AN" src="https://github.com/TaberNater96/ExpressYourself/blob/main/images/animals.png?raw=true" />
+</div>
 
 <div id="race-of-the-robots" align="center">
   <h2>Race of the Robots</h2>
