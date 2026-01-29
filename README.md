@@ -64,7 +64,7 @@ flask run
 ![Live Server](https://github.com/TaberNater96/Flask-HTTP-Server/blob/main/images/Live%20Server.png?raw=true)
 
 <div id="express-yourself" align="center">
-  <h2>Express Yourself</h2>
+  <h2>Express HTTP Server</h2>
 </div>
 
 <a href="https://github.com/TaberNater96/ExpressYourself" target="_blank">Source Code</a>
